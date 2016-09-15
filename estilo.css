@@ -2,15 +2,16 @@ body{
 	background:url(imagens/background.jpg); /*inserção da imagem de fundo em todo o site*/
 	color:#868686; /*cor padrão para todas as fontes*/
 	font-family: "Open Sans", Helvetica, sans-serif, arial; /*definição da fonte geral incorporada do Google Fonts*/
-	font-size: 18px; /*tamanho da fonte*/
+	font-size: 1.125em; /*tamanho da fonte 18 px*/
 	font-weight: 300; /*indica que a fonte está configurada como Open Sans Light*/
-	line-height: 22px;/*altura da linha*/
+	line-height: 1.2222222222em;/*altura da linha 22px/18px*/
 	text-align: left; /*alinhando o texto à esquerda*/
 	text-shadow:1px 1px 0px #fff; /*sombreamento para as fontes do site*/
 }
 .center{
 	margin: 0 auto; /*centralizando o conteúdo no navegador*/
-	width: 1200px; /*largura do layout*/		
+	max-width:1200px; /*Largura do layout*/
+	width: 90%; /*ajuste do layout*/		
 }
 /*.clearfix usado para adicionar um espaço vazio antes e depois dos elementos
   evitando que os floats se aglomerem.
