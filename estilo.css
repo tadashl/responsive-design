@@ -1,8 +1,8 @@
-@viewport{
+/**@viewport{
 	zoom:1.0;
 	width: device-width;
 }
-
+**/
 
 body{
 	background:url(imagens/background.jpg); /*inserção da imagem de fundo em todo o site*/
